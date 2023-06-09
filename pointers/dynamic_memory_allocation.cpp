@@ -10,7 +10,7 @@ p = new int{0};
 cout << *p << endl;
 *p = 10;
 cout << *p << endl;
-delete(p);
+delete[] p;
 cout << *p << endl;
     return 0;
 }
