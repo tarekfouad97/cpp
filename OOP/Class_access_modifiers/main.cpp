@@ -28,4 +28,4 @@ void Account::deposite (int cash)
 {
     balance += cash; 
     cout << "Success! Your balance now is $"<< balance << endl;
-}
+} 
